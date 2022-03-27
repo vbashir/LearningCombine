@@ -7,6 +7,9 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		F2007E7727F1080E001B01BF /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2007E7627F1080E001B01BF /* Person.swift */; };
+		F21118F727F0AB9000BB874C /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = F21118F927F0AB9000BB874C /* Localizable.strings */; };
+		F21118FD27F0B28500BB874C /* Localizable.stringsdict in Resources */ = {isa = PBXBuildFile; fileRef = F21118FF27F0B28500BB874C /* Localizable.stringsdict */; };
 		F2725F7A27EDCD6F00E130CC /* MyAppApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2725F7927EDCD6F00E130CC /* MyAppApp.swift */; };
 		F2725F7C27EDCD6F00E130CC /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2725F7B27EDCD6F00E130CC /* ContentView.swift */; };
 		F2725F7E27EDCD7100E130CC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F2725F7D27EDCD7100E130CC /* Assets.xcassets */; };
@@ -14,6 +17,15 @@
 		F2725F8B27EDCD7200E130CC /* MyAppTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2725F8A27EDCD7200E130CC /* MyAppTests.swift */; };
 		F2725F9527EDCD7200E130CC /* MyAppUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2725F9427EDCD7200E130CC /* MyAppUITests.swift */; };
 		F2725F9727EDCD7200E130CC /* MyAppUITestsLaunchTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = F2725F9627EDCD7200E130CC /* MyAppUITestsLaunchTests.swift */; };
+		F28F511727EDD69D00C68DD5 /* Planet.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F511627EDD69D00C68DD5 /* Planet.swift */; };
+		F28F511927EDD94B00C68DD5 /* People.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F511827EDD94B00C68DD5 /* People.swift */; };
+		F28F511B27EDDA0C00C68DD5 /* Starship.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F511A27EDDA0C00C68DD5 /* Starship.swift */; };
+		F28F511D27EDDAA500C68DD5 /* Vehicle.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F511C27EDDAA500C68DD5 /* Vehicle.swift */; };
+		F28F511F27EDDBD700C68DD5 /* Specie.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F511E27EDDBD700C68DD5 /* Specie.swift */; };
+		F28F512127EDDC8E00C68DD5 /* Film.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F512027EDDC8E00C68DD5 /* Film.swift */; };
+		F28F512427EDDDCB00C68DD5 /* Api.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F512327EDDDCB00C68DD5 /* Api.swift */; };
+		F28F512727EDF24D00C68DD5 /* Persons.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F512627EDF24D00C68DD5 /* Persons.swift */; };
+		F28F512927EDF29C00C68DD5 /* PersonsViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = F28F512827EDF29C00C68DD5 /* PersonsViewModel.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -34,6 +46,11 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		F2007E7627F1080E001B01BF /* Person.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
+		F21118F827F0AB9000BB874C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = en; path = en.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F21118FA27F0ABB200BB874C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; name = ru; path = ru.lproj/Localizable.strings; sourceTree = "<group>"; };
+		F21118FE27F0B28500BB874C /* en */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = en; path = en.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
+		F211190027F0B28800BB874C /* ru */ = {isa = PBXFileReference; lastKnownFileType = text.plist.stringsdict; name = ru; path = ru.lproj/Localizable.stringsdict; sourceTree = "<group>"; };
 		F2725F7627EDCD6F00E130CC /* MyApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MyApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2725F7927EDCD6F00E130CC /* MyAppApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppApp.swift; sourceTree = "<group>"; };
 		F2725F7B27EDCD6F00E130CC /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -44,6 +61,15 @@
 		F2725F9027EDCD7200E130CC /* MyAppUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = MyAppUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		F2725F9427EDCD7200E130CC /* MyAppUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITests.swift; sourceTree = "<group>"; };
 		F2725F9627EDCD7200E130CC /* MyAppUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyAppUITestsLaunchTests.swift; sourceTree = "<group>"; };
+		F28F511627EDD69D00C68DD5 /* Planet.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Planet.swift; sourceTree = "<group>"; };
+		F28F511827EDD94B00C68DD5 /* People.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = People.swift; sourceTree = "<group>"; };
+		F28F511A27EDDA0C00C68DD5 /* Starship.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Starship.swift; sourceTree = "<group>"; };
+		F28F511C27EDDAA500C68DD5 /* Vehicle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Vehicle.swift; sourceTree = "<group>"; };
+		F28F511E27EDDBD700C68DD5 /* Specie.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Specie.swift; sourceTree = "<group>"; };
+		F28F512027EDDC8E00C68DD5 /* Film.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Film.swift; sourceTree = "<group>"; };
+		F28F512327EDDDCB00C68DD5 /* Api.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Api.swift; sourceTree = "<group>"; };
+		F28F512627EDF24D00C68DD5 /* Persons.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persons.swift; sourceTree = "<group>"; };
+		F28F512827EDF29C00C68DD5 /* PersonsViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PersonsViewModel.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -94,10 +120,15 @@
 		F2725F7827EDCD6F00E130CC /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
+				F21118F927F0AB9000BB874C /* Localizable.strings */,
+				F28F512527EDF23600C68DD5 /* PersonScreen */,
+				F28F512227EDDDBE00C68DD5 /* Network */,
+				F28F511527EDD68500C68DD5 /* Models */,
 				F2725F7927EDCD6F00E130CC /* MyAppApp.swift */,
 				F2725F7B27EDCD6F00E130CC /* ContentView.swift */,
 				F2725F7D27EDCD7100E130CC /* Assets.xcassets */,
 				F2725F7F27EDCD7100E130CC /* Preview Content */,
+				F21118FF27F0B28500BB874C /* Localizable.stringsdict */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -125,6 +156,37 @@
 				F2725F9627EDCD7200E130CC /* MyAppUITestsLaunchTests.swift */,
 			);
 			path = MyAppUITests;
+			sourceTree = "<group>";
+		};
+		F28F511527EDD68500C68DD5 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				F28F511627EDD69D00C68DD5 /* Planet.swift */,
+				F28F511827EDD94B00C68DD5 /* People.swift */,
+				F28F511A27EDDA0C00C68DD5 /* Starship.swift */,
+				F28F511C27EDDAA500C68DD5 /* Vehicle.swift */,
+				F28F511E27EDDBD700C68DD5 /* Specie.swift */,
+				F28F512027EDDC8E00C68DD5 /* Film.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		F28F512227EDDDBE00C68DD5 /* Network */ = {
+			isa = PBXGroup;
+			children = (
+				F28F512327EDDDCB00C68DD5 /* Api.swift */,
+			);
+			path = Network;
+			sourceTree = "<group>";
+		};
+		F28F512527EDF23600C68DD5 /* PersonScreen */ = {
+			isa = PBXGroup;
+			children = (
+				F28F512627EDF24D00C68DD5 /* Persons.swift */,
+				F28F512827EDF29C00C68DD5 /* PersonsViewModel.swift */,
+				F2007E7627F1080E001B01BF /* Person.swift */,
+			);
+			path = PersonScreen;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -213,6 +275,7 @@
 			knownRegions = (
 				en,
 				Base,
+				ru,
 			);
 			mainGroup = F2725F6D27EDCD6F00E130CC;
 			productRefGroup = F2725F7727EDCD6F00E130CC /* Products */;
@@ -232,6 +295,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				F2725F8127EDCD7100E130CC /* Preview Assets.xcassets in Resources */,
+				F21118FD27F0B28500BB874C /* Localizable.stringsdict in Resources */,
+				F21118F727F0AB9000BB874C /* Localizable.strings in Resources */,
 				F2725F7E27EDCD7100E130CC /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -257,7 +322,17 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				F28F512927EDF29C00C68DD5 /* PersonsViewModel.swift in Sources */,
+				F28F512427EDDDCB00C68DD5 /* Api.swift in Sources */,
+				F28F511D27EDDAA500C68DD5 /* Vehicle.swift in Sources */,
+				F28F511927EDD94B00C68DD5 /* People.swift in Sources */,
+				F28F511B27EDDA0C00C68DD5 /* Starship.swift in Sources */,
+				F28F511727EDD69D00C68DD5 /* Planet.swift in Sources */,
+				F2007E7727F1080E001B01BF /* Person.swift in Sources */,
 				F2725F7C27EDCD6F00E130CC /* ContentView.swift in Sources */,
+				F28F512127EDDC8E00C68DD5 /* Film.swift in Sources */,
+				F28F511F27EDDBD700C68DD5 /* Specie.swift in Sources */,
+				F28F512727EDF24D00C68DD5 /* Persons.swift in Sources */,
 				F2725F7A27EDCD6F00E130CC /* MyAppApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -294,11 +369,33 @@
 		};
 /* End PBXTargetDependency section */
 
+/* Begin PBXVariantGroup section */
+		F21118F927F0AB9000BB874C /* Localizable.strings */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21118F827F0AB9000BB874C /* en */,
+				F21118FA27F0ABB200BB874C /* ru */,
+			);
+			name = Localizable.strings;
+			sourceTree = "<group>";
+		};
+		F21118FF27F0B28500BB874C /* Localizable.stringsdict */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F21118FE27F0B28500BB874C /* en */,
+				F211190027F0B28800BB874C /* ru */,
+			);
+			name = Localizable.stringsdict;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
 /* Begin XCBuildConfiguration section */
 		F2725F9827EDCD7200E130CC /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";
@@ -360,6 +457,7 @@
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_LOCALIZABILITY_NONLOCALIZED = YES;
 				CLANG_ANALYZER_NONNULL = YES;
 				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
 				CLANG_CXX_LANGUAGE_STANDARD = "gnu++17";

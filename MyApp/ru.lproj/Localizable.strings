@@ -1,0 +1,13 @@
+"planets" = "Планеты";
+"peoples" = "Персонажи";
+"starships" = "Корабли";
+"species" = "Виды";
+"vehicles" = "Транспорт";
+"films" = "Фильмы";
+"next" = "Следующая";
+"previous" = "Предыдущая";
+"results_count" = "Результатов на странице";
+"search" = "Поиск";
+"loading" = "Загрузка...";
+"current_page" = "Cтраница";
+"no_result" = "Нет результатов";
