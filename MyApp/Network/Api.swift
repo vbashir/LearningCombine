@@ -49,12 +49,12 @@ class Api {
     }
     
     enum ApiCategory: String {
-        case planets
-        case peoples
-        case starships
-        case vehicles
-        case species
-        case films
+        case planets = "planets"
+        case peoples = "people"
+        case starships = "starship"
+        case vehicles = "vehicle"
+        case species = "specie"
+        case films = "film"
     }
     
     enum APIError: Error, LocalizedError {

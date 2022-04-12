@@ -97,6 +97,15 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		F224E2FE28047B040099630F /* Localizable */ = {
+			isa = PBXGroup;
+			children = (
+				F21118FF27F0B28500BB874C /* Localizable.stringsdict */,
+				F21118F927F0AB9000BB874C /* Localizable.strings */,
+			);
+			path = Localizable;
+			sourceTree = "<group>";
+		};
 		F2725F6D27EDCD6F00E130CC = {
 			isa = PBXGroup;
 			children = (
@@ -120,7 +129,7 @@
 		F2725F7827EDCD6F00E130CC /* MyApp */ = {
 			isa = PBXGroup;
 			children = (
-				F21118F927F0AB9000BB874C /* Localizable.strings */,
+				F224E2FE28047B040099630F /* Localizable */,
 				F28F512527EDF23600C68DD5 /* PersonScreen */,
 				F28F512227EDDDBE00C68DD5 /* Network */,
 				F28F511527EDD68500C68DD5 /* Models */,
@@ -128,7 +137,6 @@
 				F2725F7B27EDCD6F00E130CC /* ContentView.swift */,
 				F2725F7D27EDCD7100E130CC /* Assets.xcassets */,
 				F2725F7F27EDCD7100E130CC /* Preview Content */,
-				F21118FF27F0B28500BB874C /* Localizable.stringsdict */,
 			);
 			path = MyApp;
 			sourceTree = "<group>";
@@ -450,6 +458,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
 				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -505,6 +514,7 @@
 				SDKROOT = iphoneos;
 				SWIFT_COMPILATION_MODE = wholemodule;
 				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;

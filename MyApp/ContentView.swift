@@ -17,7 +17,7 @@ struct ContentView: View {
                 Image(systemName: "person.3")
                 Text("peoples")
             }.tag(0)
-            Text("planets").tabItem {
+            Text("Планеты").tabItem {
                 Image(systemName: "circlebadge.2.fill")
                 Text("planets")
             }.tag(1)
