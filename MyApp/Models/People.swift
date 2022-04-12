@@ -54,4 +54,41 @@ struct People: Codable, Identifiable {
         self.url = try container.decode(String.self, forKey: .url)
         self.vehicles = try container.decode([String].self, forKey: .vehicles)
     }
+    
+    public init(
+        birth_year: String,
+        eye_color: String,
+        films: [String],
+        gender: String,
+        hair_color: String,
+        height: String,
+        homeworld: String,
+        mass: String,
+        name: String,
+        skin_color: String,
+        created: String,
+        edited: String,
+        species: [String],
+        starships: [String],
+        url: String,
+        vehicles: [String]
+    ) {
+        self.id = UUID()
+        self.birth_year = birth_year
+        self.eye_color = eye_color
+        self.films = films
+        self.gender = gender
+        self.hair_color = hair_color
+        self.height = height
+        self.homeworld = homeworld
+        self.mass = mass
+        self.name = name
+        self.skin_color = skin_color
+        self.created = created
+        self.edited = edited
+        self.species = species
+        self.starships = starships
+        self.url = url
+        self.vehicles = vehicles
+    }
 }
